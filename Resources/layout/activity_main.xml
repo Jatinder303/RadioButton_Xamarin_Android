@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+    <RadioGroup
+        android:id="@+id/widget39"
+        android:layout_width="174dp"
+        android:layout_height="109dp"
+        android:layout_x="65dp"
+        android:layout_y="126dp">
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="161.9dp"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="154.4dp"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnSelection"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:text="Get Selection"
+        android:layout_x="60dp"
+        android:layout_y="277dp" />
+</LinearLayout>
+
+</RelativeLayout>
